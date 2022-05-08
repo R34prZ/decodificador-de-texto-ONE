@@ -9,25 +9,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="container">
+<body>
     <header>
-        <h1><a href="https://www.alura.com.br/oracle-next-education" target="_blank"><img src="images/logo.svg"
-                    alt="Logo da plataforma alura"></a></h1>
+        <h1><a href="https://www.alura.com.br/oracle-next-education" target="_blank"><img class="logo-alura"
+                    src="images/logo.svg" alt="Logo da plataforma alura"></a></h1>
     </header>
-    <main>
+    <main class="container">
         <form class="decoder">
             <textarea name="rawtext" id="rawtext" cols="30" rows="10" placeholder="Digite seu texto..."></textarea>
             <fieldset class="action-buttons">
-                <p><img src="images/exclamation.svg" alt="Ponto de exclamação">Apenas letras minúsculas e sem acento.</p>
+                <p class="paragraph"><img src="images/exclamation.svg" alt="Ponto de exclamação">Apenas letras
+                    minúsculas e sem acento.</p>
                 <button class="standard-btn">Criptografar</button>
                 <button class="standard-btn">Descriptografar</button>
             </fieldset>
         </form>
 
         <div class="result">
-            <img src="images/searching.svg" alt="Esperando uma entrada de texto">
+            <img class="result-img" src="images/searching.svg" alt="Esperando uma entrada de texto">
             <h3>Nenhuma mensagem encontrada</h3>
-            <p>Digite um texto que você deseja Criptografar ou Descriptografar</p>
+            <p class="paragraph">Digite um texto que você deseja Criptografar ou Descriptografar</p>
         </div>
     </main>
     <footer></footer>
