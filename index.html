@@ -20,18 +20,24 @@
             <fieldset class="action-buttons">
                 <legend class="paragraph"><img class="exclamation" src="images/exclamation.svg" alt="Ponto de exclamação">Apenas letras
                     minúsculas e sem acento.</legend>
-                <button class="standard-btn criptografar-btn">Criptografar</button>
-                <button class="standard-btn descriptografar-btn">Descriptografar</button>
+                <button type="button" class="standard-btn criptografar-btn">Criptografar</button>
+                <button type="button" class="standard-btn descriptografar-btn">Descriptografar</button>
             </fieldset>
         </form>
 
         <div class="result">
-            <img class="result-img" src="images/searching.svg" alt="Esperando uma entrada de texto">
-            <h3><strong>Nenhuma mensagem encontrada</strong></h3>
-            <p class="paragraph">Digite um texto que você deseja Criptografar ou Descriptografar</p>
+            <div class="result-default">
+                <img class="result-img" src="images/searching.svg" alt="Esperando uma entrada de texto">
+                <h3><strong>Nenhuma mensagem encontrada</strong></h3>
+                <p class="paragraph">Digite um texto que você deseja Criptografar ou Descriptografar</p>
+            </div>
+            <div class="result-paragraph"></div>
         </div>
     </main>
     <footer></footer>
-</body>
 
+    <script src="js/criptografar.js"></script>
+    <script src="js/descriptografar.js"></script>
+    <script src="js/mostrar_resultado.js"></script>
+</body>
 </html>
