@@ -12,6 +12,6 @@ A ideia é bastante simples, e a criptografia funciona da seguinte maneira:
 Para a criação do site foram usados apenas HTML, CSS e Javascript puros.
 
 ## Me siga!
-Se você gostou do site, me siga aqui no github\n
-Alguma dúvida, dica, ou gostaria de me contatar?\n
+Se você gostou do site, me siga aqui no github  
+Alguma dúvida, dica, ou gostaria de me contatar?  
 Discord: R34prZ#6633
