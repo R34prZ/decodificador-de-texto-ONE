@@ -144,7 +144,3 @@ body {
 .invisible {
     display: none;
 }
-
-.dark-mode {
-    background: linear-gradient(rgb(153, 94, 168), #121212);
-}
