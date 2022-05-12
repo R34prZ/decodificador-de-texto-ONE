@@ -8,6 +8,7 @@ function descriptografar () {
 
     for (let i = 0; i < padraoTroca.length; i++) {
         if (texto.includes(padraoTroca[i][1])) {
+            // troca pela letra original para descriptografar
             texto_plano = texto_plano.replaceAll(padraoTroca[i][1], padraoTroca[i][0]);
         }
     }

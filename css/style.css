@@ -6,6 +6,7 @@ body {
     height: 100vh;
 }
 
+/* Faz com que o conteúdo ocupe a página toda */
 .container {
     height: calc(100% - 90px);
 }
@@ -14,6 +15,7 @@ body {
     margin: 40px 0 0 84px;
 }
 
+/* parte do site onde é inserido o texto e onde estão os botões */
 .decoder {
     display: inline-block;
     margin: 1% 2% 0 240px;
@@ -22,6 +24,7 @@ body {
     vertical-align: top;
 }
 
+/* textarea onde é inserido o texto a ser criptografado/descriptografado */
 .decoder #rawtext {
     resize: none;
     border: none;
@@ -34,10 +37,12 @@ body {
 
 }
 
+/* estilização padrão para parágrafos */
 .paragraph {
     color: #495057;
 }
 
+/* símbolo de exclamação */
 .exclamation {
     width: 12px;
 }
@@ -49,6 +54,7 @@ body {
     margin: 0 0 5px 0;
 }
 
+/* estilização padrão para botões */
 .standard-btn {
     padding: 28px;
     margin: 0 5px 0 0;
@@ -74,6 +80,7 @@ body {
     color: #D8DFE8;
 }
 
+/* parte do site onde é apresentado o resultado da criptografia/descriptografia do texto */
 .result {
     display: inline-block;
     height: 100%;
@@ -111,6 +118,8 @@ body {
     margin-top: 4%;
 }
 
+/* div que vai conter o parágrafo com o resultado da conversão do texto, não foncundir
+com a estilização acima */
 .result-paragraph {
     word-wrap: break-word;
 }
@@ -119,6 +128,7 @@ body {
     margin: 5%;
 }
 
+/* estilização da confirmação que o texto foi copiado */
 .copy-confirm {
     position: absolute;
     text-align: center;
@@ -131,6 +141,7 @@ body {
     font-size: 14px;
 }
 
+/* botão para copiar texto */
 .copy-btn {
     width: 150px;
     padding: 20px;
@@ -141,6 +152,29 @@ body {
     top: 95%;
 }
 
+/* estilização do rodapé */
+footer {
+    text-align: center;
+}
+
+/* seleciona o parágrafo logo após o br dentro do footer */
+footer br + p {
+    margin-bottom: 15px;
+}
+
+.github-logo {
+    margin-bottom: 25px;
+}
+
+.github-logo a {
+    text-decoration: none;
+}
+
+.github-logo .paragraph {
+    font-size: 14px;
+}
+
+/* deixa o elemento invisível */
 .invisible {
     display: none;
 }
